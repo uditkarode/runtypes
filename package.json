@@ -1,6 +1,6 @@
 {
   "name": "runtypes-strnum",
-  "version": "5.0.2",
+  "version": "5.0.8",
   "description": "Runtime validation for static types with an additional string number type",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
