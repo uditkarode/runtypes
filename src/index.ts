@@ -1,4 +1,4 @@
-export { Runtype, Static } from './runtype';
+export { Runtype, Static, create } from './runtype';
 export * from './reflect';
 export * from './result';
 export * from './contract';
