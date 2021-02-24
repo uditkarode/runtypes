@@ -12,6 +12,7 @@ export { Literal, Undefined, Null } from './types/literal';
 export * from './types/boolean';
 export * from './types/number';
 export * from './types/string';
+export * from './types/strnumber';
 export * from './types/symbol';
 export * from './types/array';
 export * from './types/tuple';
