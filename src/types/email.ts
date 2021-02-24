@@ -15,7 +15,7 @@ export const StrEmail = create<StrEmail>(
       ? { success: true, value }
       : {
         success: false,
-        message: `Expected string email, but was ${value === null ? value : typeof value}`,
+        message: `Expected string email, but was ${value !== null ? value : typeof value}`,
       },
   { tag: 'stremail' },
 );
