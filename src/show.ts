@@ -58,6 +58,10 @@ const show = (needsParens: boolean, circular: Set<Reflect>) => (refl: Reflect): 
         return `InstanceOf<${name}>`;
       case 'brand':
         return show(needsParens, circular)(refl.entity);
+      case 'strnumber':
+        return "Number (String)"
+      case 'stremail':
+        return "Email (String)"
     }
   } finally {
     circular.delete(refl);

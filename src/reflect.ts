@@ -10,6 +10,8 @@ export type Reflect =
   | ({ tag: 'boolean' } & Runtype<boolean>)
   | ({ tag: 'number' } & Runtype<number>)
   | ({ tag: 'string' } & Runtype<string>)
+  | ({ tag: 'strnumber' } & Runtype<string>)
+  | ({ tag: 'stremail' } & Runtype<string>)
   | ({ tag: 'symbol' } & Runtype<symbol>)
   | ({ tag: 'literal'; value: LiteralBase } & Runtype<LiteralBase>)
   | ({ tag: 'array'; element: Reflect; isReadonly: boolean } & Runtype<ReadonlyArray<unknown>>)
